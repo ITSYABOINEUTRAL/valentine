@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #ffe6f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Media container */
+.media {
+  position: relative;
+  width: max-content;
+  margin-bottom: 20px;
+}
+
+/* Minions video */
+#minionsVideo {
+  width: 120%;
+  border-radius: 16px;
+}
+
+/* Fireworks container (bigger, but not fullscreen) */
+#fireworksBox {
+  position: relative;
+  width: 625px;          /* 🔥 slightly bigger */
+  margin: 0 auto;
+}
+
+#fireworksVideo {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* Celebration text */
+.celebrate {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 42px;
+  color: white;
+  text-shadow: 0 4px 10px rgba(0,0,0,0.6);
+  pointer-events: none;
+}
+
+/* Text */
+h1 {
+  color: #d63384;
+  margin: 10px 0;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 14px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#yesBtn {
+  background: #ff4d88;
+  color: white;
+}
+
+#noBtn {
+  background: #ccc;
+}
+
+/* Utility */
+.hidden {
+  display: none;
+}
