@@ -16,9 +16,11 @@ body {
 
 /* Media container */
 .media {
-  position: relative;
-  width: max-content;
-  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Minions video */

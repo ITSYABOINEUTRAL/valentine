@@ -13,7 +13,7 @@ noBtn.addEventListener("click", () => {
   yesBtn.style.transform = `scale(${scale})`;
 
   const messages = [
-    "Are you sure? 😅",
+    "Are you sure? 😭",
     "Think again 👀",
     "Come onnn 💕",
     "Last chance 😭"
