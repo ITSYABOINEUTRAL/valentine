@@ -15,7 +15,7 @@ noBtn.addEventListener("click", () => {
   const messages = [
     "Are you sure? 😭",
     "Think again 👀",
-    "Come onnn 💕",
+    "Come onnn 😭",
     "Last chance 😭"
   ];
 
